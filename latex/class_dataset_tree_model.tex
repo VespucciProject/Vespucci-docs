@@ -1,0 +1,106 @@
+\hypertarget{class_dataset_tree_model}{}\section{Dataset\+Tree\+Model Class Reference}
+\label{class_dataset_tree_model}\index{Dataset\+Tree\+Model@{Dataset\+Tree\+Model}}
+Inheritance diagram for Dataset\+Tree\+Model\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dataset_tree_model}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Dataset\+Tree\+Model} (Q\+Object $\ast$parent)\hypertarget{class_dataset_tree_model_ab5225c75a58682f12bed8eeb5342d57c}{}\label{class_dataset_tree_model_ab5225c75a58682f12bed8eeb5342d57c}
+
+\item 
+{\bfseries Dataset\+Tree\+Model} (Q\+Object $\ast$parent, const \hyperlink{class_data_model}{Data\+Model} $\ast$data\+\_\+model)\hypertarget{class_dataset_tree_model_af1085ae203d04401068a43e29f93584e}{}\label{class_dataset_tree_model_af1085ae203d04401068a43e29f93584e}
+
+\item 
+void \hyperlink{class_dataset_tree_model_a6b790c46fce2661df22f977568747799}{Setup\+Model\+Data} (const \hyperlink{class_data_model}{Data\+Model} $\ast$data\+\_\+model)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_dataset_tree_model_a6b790c46fce2661df22f977568747799}{Dataset\+Tree\+Model\+::\+Setup\+Model\+Data}. \end{DoxyCompactList}\item 
+Q\+Variant {\bfseries data} (const Q\+Model\+Index \&index, int role) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_abee1d278c2e76b6f758f5ecf60a58609}{}\label{class_dataset_tree_model_abee1d278c2e76b6f758f5ecf60a58609}
+
+\item 
+Qt\+::\+Item\+Flags {\bfseries flags} (const Q\+Model\+Index \&index) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_a2a121ff1099f33efc89e85274b234d69}{}\label{class_dataset_tree_model_a2a121ff1099f33efc89e85274b234d69}
+
+\item 
+Q\+Variant {\bfseries header\+Data} (int section, Qt\+::\+Orientation orientation, int role=Qt\+::\+Display\+Role) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_acaedaa126d810cf90e8428e656667281}{}\label{class_dataset_tree_model_acaedaa126d810cf90e8428e656667281}
+
+\item 
+Q\+Model\+Index {\bfseries index} (int row, int column, const Q\+Model\+Index \&parent=Q\+Model\+Index()) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_ad77d80cbb89b328c1e4b907f75d97bb7}{}\label{class_dataset_tree_model_ad77d80cbb89b328c1e4b907f75d97bb7}
+
+\item 
+Q\+Model\+Index {\bfseries parent} (const Q\+Model\+Index \&index) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_a0632356b4a79219f07957f0934dce29a}{}\label{class_dataset_tree_model_a0632356b4a79219f07957f0934dce29a}
+
+\item 
+int {\bfseries row\+Count} (const Q\+Model\+Index \&parent) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_ad88f002ac8bc88099867ff68d19d383e}{}\label{class_dataset_tree_model_ad88f002ac8bc88099867ff68d19d383e}
+
+\item 
+int {\bfseries column\+Count} (const Q\+Model\+Index \&parent) const Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_a731a037c013492069bc701824fe7155c}{}\label{class_dataset_tree_model_a731a037c013492069bc701824fe7155c}
+
+\item 
+bool {\bfseries remove\+Rows} (int row, int count, const Q\+Model\+Index \&parent=Q\+Model\+Index()) Q\+\_\+\+D\+E\+C\+L\+\_\+\+O\+V\+E\+R\+R\+I\+DE\hypertarget{class_dataset_tree_model_ae7707a7eca291896295e238809016d77}{}\label{class_dataset_tree_model_ae7707a7eca291896295e238809016d77}
+
+\item 
+void {\bfseries Update\+Data} (const \hyperlink{class_data_model}{Data\+Model} $\ast$data\+\_\+model)\hypertarget{class_dataset_tree_model_a2e05e6b5953aad5921a29e643f977c53}{}\label{class_dataset_tree_model_a2e05e6b5953aad5921a29e643f977c53}
+
+\item 
+void {\bfseries Add\+Dataset} (Q\+Shared\+Pointer$<$ \hyperlink{class_vespucci_dataset}{Vespucci\+Dataset} $>$ dataset)\hypertarget{class_dataset_tree_model_ac43ddd0aefecc9434dabce31728e8d7d}{}\label{class_dataset_tree_model_ac43ddd0aefecc9434dabce31728e8d7d}
+
+\item 
+bool {\bfseries Is\+Matrix} (const Q\+Model\+Index \&index)\hypertarget{class_dataset_tree_model_acff63b8d7b909efa12869d836e855aa4}{}\label{class_dataset_tree_model_acff63b8d7b909efa12869d836e855aa4}
+
+\item 
+bool {\bfseries Is\+Dataset} (const Q\+Model\+Index \&index)\hypertarget{class_dataset_tree_model_a4f32fc47d886e44b34a77778d07df8b2}{}\label{class_dataset_tree_model_a4f32fc47d886e44b34a77778d07df8b2}
+
+\item 
+bool {\bfseries Is\+Map} (const Q\+Model\+Index \&index)\hypertarget{class_dataset_tree_model_a9f9e4ebe9abbfc218ba3a769aa43d4db}{}\label{class_dataset_tree_model_a9f9e4ebe9abbfc218ba3a769aa43d4db}
+
+\item 
+void {\bfseries Clear\+Datasets} ()\hypertarget{class_dataset_tree_model_a02b02368a2f2528902265e0e3805471c}{}\label{class_dataset_tree_model_a02b02368a2f2528902265e0e3805471c}
+
+\item 
+void {\bfseries remove\+Row} (const Q\+Model\+Index \&index)\hypertarget{class_dataset_tree_model_a12c19482931a5aba1506952469639d1c}{}\label{class_dataset_tree_model_a12c19482931a5aba1506952469639d1c}
+
+\item 
+\hyperlink{class_tree_item}{Tree\+Item} $\ast$ {\bfseries get\+Item} (const Q\+Model\+Index \&index) const \hypertarget{class_dataset_tree_model_a2a190008fdbf1bcca5dca0bacb430aaa}{}\label{class_dataset_tree_model_a2a190008fdbf1bcca5dca0bacb430aaa}
+
+\item 
+\hyperlink{class_tree_item}{Tree\+Item} $\ast$ {\bfseries root\+\_\+item} ()\hypertarget{class_dataset_tree_model_a66f44fb2740195500a7d6ff6ae2079a2}{}\label{class_dataset_tree_model_a66f44fb2740195500a7d6ff6ae2079a2}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 33 of file datasettreemodel.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{Dataset\+Tree\+Model@{Dataset\+Tree\+Model}!Setup\+Model\+Data@{Setup\+Model\+Data}}
+\index{Setup\+Model\+Data@{Setup\+Model\+Data}!Dataset\+Tree\+Model@{Dataset\+Tree\+Model}}
+\subsubsection[{\texorpdfstring{Setup\+Model\+Data(const Data\+Model $\ast$data\+\_\+model)}{SetupModelData(const DataModel *data_model)}}]{\setlength{\rightskip}{0pt plus 5cm}void Dataset\+Tree\+Model\+::\+Setup\+Model\+Data (
+\begin{DoxyParamCaption}
+\item[{const {\bf Data\+Model} $\ast$}]{data\+\_\+model}
+\end{DoxyParamCaption}
+)}\hypertarget{class_dataset_tree_model_a6b790c46fce2661df22f977568747799}{}\label{class_dataset_tree_model_a6b790c46fce2661df22f977568747799}
+
+
+\hyperlink{class_dataset_tree_model_a6b790c46fce2661df22f977568747799}{Dataset\+Tree\+Model\+::\+Setup\+Model\+Data}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\+\_\+model} & Can throw an exception if one is thrown by data\+\_\+model-\/$>$Get\+Dataset() \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 128 of file datasettreemodel.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vespucci/\+G\+U\+I/\+Q\+Abstract\+Item\+Model/datasettreemodel.\+h\item 
+Vespucci/\+G\+U\+I/\+Q\+Abstract\+Item\+Model/datasettreemodel.\+cpp\end{DoxyCompactItemize}

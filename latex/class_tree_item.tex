@@ -1,0 +1,82 @@
+\hypertarget{class_tree_item}{}\section{Tree\+Item Class Reference}
+\label{class_tree_item}\index{Tree\+Item@{Tree\+Item}}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries Item\+Type} \{ \\*
+{\bfseries Dataset}, 
+{\bfseries Analysis\+Result}, 
+{\bfseries Matrix}, 
+{\bfseries Map}, 
+\\*
+{\bfseries Base}
+ \}\hypertarget{class_tree_item_ae3c4cec229d671b60f704a3d8c445fca}{}\label{class_tree_item_ae3c4cec229d671b60f704a3d8c445fca}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Tree\+Item} (Tree\+Item\+::\+Item\+Type type, Q\+String\+List \&keys, Q\+List$<$ Q\+Variant $>$ \&data, \hyperlink{class_tree_item}{Tree\+Item} $\ast$parent=0)\hypertarget{class_tree_item_a874485ee05b1a1e2bb67555c1edc1d43}{}\label{class_tree_item_a874485ee05b1a1e2bb67555c1edc1d43}
+
+\item 
+void {\bfseries append\+Child} (\hyperlink{class_tree_item}{Tree\+Item} $\ast$child)\hypertarget{class_tree_item_ac7f432ac0587ca037e80857eefd622f8}{}\label{class_tree_item_ac7f432ac0587ca037e80857eefd622f8}
+
+\item 
+void {\bfseries remove\+Child} (\hyperlink{class_tree_item}{Tree\+Item} $\ast$child)\hypertarget{class_tree_item_a82792044375f1a6f9e26e18690adc114}{}\label{class_tree_item_a82792044375f1a6f9e26e18690adc114}
+
+\item 
+\hyperlink{class_tree_item}{Tree\+Item} $\ast$ {\bfseries child} (int row)\hypertarget{class_tree_item_a80ab3164e41c8a43f1a9ef7255d88249}{}\label{class_tree_item_a80ab3164e41c8a43f1a9ef7255d88249}
+
+\item 
+int {\bfseries child\+Count} () const \hypertarget{class_tree_item_a55ffe6dd27750e479034b93e753f87af}{}\label{class_tree_item_a55ffe6dd27750e479034b93e753f87af}
+
+\item 
+int {\bfseries column\+Count} () const \hypertarget{class_tree_item_a31c3fb89ad8e19ae696a310a1f843a8e}{}\label{class_tree_item_a31c3fb89ad8e19ae696a310a1f843a8e}
+
+\item 
+Q\+Variant {\bfseries data} (int column) const \hypertarget{class_tree_item_a16641e42c78f004d47a66f3b2c39341f}{}\label{class_tree_item_a16641e42c78f004d47a66f3b2c39341f}
+
+\item 
+int {\bfseries row} () const \hypertarget{class_tree_item_a5a062d24b35421360ad1d101c564e9be}{}\label{class_tree_item_a5a062d24b35421360ad1d101c564e9be}
+
+\item 
+\hyperlink{class_tree_item}{Tree\+Item} $\ast$ {\bfseries parent\+Item} ()\hypertarget{class_tree_item_ab9f8fe7c9bd0c14efa37a91dea40543b}{}\label{class_tree_item_ab9f8fe7c9bd0c14efa37a91dea40543b}
+
+\item 
+Q\+List$<$ \hyperlink{class_tree_item}{Tree\+Item} $\ast$ $>$ {\bfseries child\+\_\+items} ()\hypertarget{class_tree_item_a6119a1b67f2da1a32057b42be6bcc2f9}{}\label{class_tree_item_a6119a1b67f2da1a32057b42be6bcc2f9}
+
+\item 
+void {\bfseries Clear\+Children} ()\hypertarget{class_tree_item_a26d8ae454bdb99b1d738522dbf2b7cc6}{}\label{class_tree_item_a26d8ae454bdb99b1d738522dbf2b7cc6}
+
+\item 
+Tree\+Item\+::\+Item\+Type {\bfseries type} () const \hypertarget{class_tree_item_abe86d3e2513ece1852f5f2b3922f1590}{}\label{class_tree_item_abe86d3e2513ece1852f5f2b3922f1590}
+
+\item 
+Q\+String\+List {\bfseries keys} () const \hypertarget{class_tree_item_af2f9cbd05fc5c9224cea73f3c36555ca}{}\label{class_tree_item_af2f9cbd05fc5c9224cea73f3c36555ca}
+
+\item 
+const Q\+String {\bfseries Dataset\+Key} () const \hypertarget{class_tree_item_ab159ff136dc660bd37868e3bd4baf75b}{}\label{class_tree_item_ab159ff136dc660bd37868e3bd4baf75b}
+
+\item 
+Q\+String\+List {\bfseries Child\+Names} () const \hypertarget{class_tree_item_a105402b3ad5d3c8321bf67e2b5fdf81e}{}\label{class_tree_item_a105402b3ad5d3c8321bf67e2b5fdf81e}
+
+\item 
+bool {\bfseries Has\+Child} (const Q\+String \&name)\hypertarget{class_tree_item_a766489df6b0414151971504a22f0351e}{}\label{class_tree_item_a766489df6b0414151971504a22f0351e}
+
+\item 
+void {\bfseries Update\+Type} (Q\+String new\+\_\+type)\hypertarget{class_tree_item_a5c34c26745333573356e8e78361ec012}{}\label{class_tree_item_a5c34c26745333573356e8e78361ec012}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 28 of file treeitem.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vespucci/\+G\+U\+I/\+Q\+Abstract\+Item\+Model/treeitem.\+h\item 
+Vespucci/\+G\+U\+I/\+Q\+Abstract\+Item\+Model/treeitem.\+cpp\end{DoxyCompactItemize}

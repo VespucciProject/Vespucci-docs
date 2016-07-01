@@ -1,0 +1,311 @@
+\hypertarget{class_data_model}{}\section{Data\+Model Class Reference}
+\label{class_data_model}\index{Data\+Model@{Data\+Model}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Shared\+Pointer$<$ \hyperlink{class_vespucci_dataset}{Vespucci\+Dataset} $>$ \hyperlink{class_data_model_a39a26795ff351c8f25144c022761c601}{Get\+Dataset} (const Q\+String \&key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_a39a26795ff351c8f25144c022761c601}{Data\+Model\+::\+Get\+Dataset} Get the \hyperlink{class_vespucci_dataset}{Vespucci\+Dataset} named key. \end{DoxyCompactList}\item 
+Q\+Shared\+Pointer$<$ \hyperlink{class_analysis_results}{Analysis\+Results} $>$ \hyperlink{class_data_model_af277d915c6a3aa8a2d3d38378bfdd02f}{Get\+Results} (const Q\+String \&dataset\+\_\+key, const Q\+String \&results\+\_\+key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_af277d915c6a3aa8a2d3d38378bfdd02f}{Data\+Model\+::\+Get\+Results} Get the \hyperlink{class_analysis_results}{Analysis\+Results} object named results\+\_\+key from the dataset named dataset\+\_\+key. \end{DoxyCompactList}\item 
+Q\+Shared\+Pointer$<$ \hyperlink{class_analysis_results}{Analysis\+Results} $>$ {\bfseries Get\+Results} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_a176e3a30663cedcdfeb8ff43e96c3f08}{}\label{class_data_model_a176e3a30663cedcdfeb8ff43e96c3f08}
+
+\item 
+Q\+Shared\+Pointer$<$ \hyperlink{class_map_data}{Map\+Data} $>$ \hyperlink{class_data_model_a190e371dfaa3045527af6f6d2e41cf32}{Get\+Map} (const Q\+String \&dataset\+\_\+key, const Q\+String \&map\+\_\+key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_a190e371dfaa3045527af6f6d2e41cf32}{Data\+Model\+::\+Get\+Map} Get the \hyperlink{class_map_data}{Map\+Data} object named map\+\_\+key from dataset named dataset\+\_\+key. \end{DoxyCompactList}\item 
+Q\+Shared\+Pointer$<$ \hyperlink{class_map_data}{Map\+Data} $>$ {\bfseries Get\+Map} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_aad98e14defecb0477347a5fd36d8f6a2}{}\label{class_data_model_aad98e14defecb0477347a5fd36d8f6a2}
+
+\item 
+const mat \& {\bfseries Get\+Results\+Matrix} (const Q\+String \&dataset\+\_\+key, const Q\+String \&results\+\_\+key, const Q\+String \&matrix\+\_\+key) const \hypertarget{class_data_model_af2b05c5c8baaaba3c527c93da653ce09}{}\label{class_data_model_af2b05c5c8baaaba3c527c93da653ce09}
+
+\item 
+const mat \& {\bfseries Get\+Results\+Matrix} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_a3198834d9eae938358dae1b0a51dd97d}{}\label{class_data_model_a3198834d9eae938358dae1b0a51dd97d}
+
+\item 
+const mat \& \hyperlink{class_data_model_ad168adfafdd3c9c6a7317a77df2c62e5}{Get\+Core\+Matrix} (const Q\+String \&dataset\+\_\+key, const Q\+String \&matrix\+\_\+key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_ad168adfafdd3c9c6a7317a77df2c62e5}{Data\+Model\+::\+Get\+Core\+Matrix}. \end{DoxyCompactList}\item 
+const mat \& {\bfseries Get\+Core\+Matrix} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_a8ef59d0778dc0c9605c46312291c25bb}{}\label{class_data_model_a8ef59d0778dc0c9605c46312291c25bb}
+
+\item 
+const mat \& \hyperlink{class_data_model_a826f3ec440b4fbcecb47eb9f1e7ceb3f}{Get\+Auxiliary\+Matrix} (const Q\+String \&dataset\+\_\+key, const Q\+String \&matrix\+\_\+key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_a826f3ec440b4fbcecb47eb9f1e7ceb3f}{Data\+Model\+::\+Get\+Auxiliary\+Matrix}. \end{DoxyCompactList}\item 
+const mat \& {\bfseries Get\+Auxiliary\+Matrix} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_a2426bc75ca0cf413fcbebb63bee0a326}{}\label{class_data_model_a2426bc75ca0cf413fcbebb63bee0a326}
+
+\item 
+const mat \& {\bfseries Get\+Matrix} (const Q\+String \&dataset\+\_\+key, const Q\+String \&matrix\+\_\+key) const \hypertarget{class_data_model_a2752763eb2c2d7be9cb10b45024ad8d6}{}\label{class_data_model_a2752763eb2c2d7be9cb10b45024ad8d6}
+
+\item 
+const mat \& {\bfseries Get\+Matrix} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_a249dcd7395fc083902f5a0df3d0ed11c}{}\label{class_data_model_a249dcd7395fc083902f5a0df3d0ed11c}
+
+\item 
+bool {\bfseries Mappable} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_a84b028bda5d4bf5719769164b32bdfc8}{}\label{class_data_model_a84b028bda5d4bf5719769164b32bdfc8}
+
+\item 
+bool {\bfseries Plottable} (const Q\+String\+List \&keys) const \hypertarget{class_data_model_ab41d55c9e713496d8f1eaecb8d37f546}{}\label{class_data_model_ab41d55c9e713496d8f1eaecb8d37f546}
+
+\item 
+Q\+String\+List \hyperlink{class_data_model_ae8e2a93a6c71ca636957faa8208eb6cc}{Dataset\+Names} () const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_ae8e2a93a6c71ca636957faa8208eb6cc}{Data\+Model\+::\+Dataset\+Names}. \end{DoxyCompactList}\item 
+Q\+String\+List \hyperlink{class_data_model_a70071e275893667961ff4262f8d28c9e}{Analysis\+Results\+Names} (const Q\+String \&dataset\+\_\+key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_a70071e275893667961ff4262f8d28c9e}{Data\+Model\+::\+Analysis\+Results\+Names}. \end{DoxyCompactList}\item 
+Q\+String\+List \hyperlink{class_data_model_a4086ff5d73459e7499f6f939e0ab3684}{Auxiliary\+Matrix\+Names} (const Q\+String \&dataset\+\_\+key) const 
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_a4086ff5d73459e7499f6f939e0ab3684}{Data\+Model\+::\+Auxiliary\+Matrix\+Names}. \end{DoxyCompactList}\item 
+Q\+String\+List {\bfseries Core\+Matrix\+Names} (const Q\+String \&dataset\+\_\+key)\hypertarget{class_data_model_a92c4ff18028cdac1ee4f82fa96a571ca}{}\label{class_data_model_a92c4ff18028cdac1ee4f82fa96a571ca}
+
+\item 
+void \hyperlink{class_data_model_a59701ea222dc2cd8cdfb9d53cd2dcc72}{Add\+Dataset} (Q\+Shared\+Pointer$<$ \hyperlink{class_vespucci_dataset}{Vespucci\+Dataset} $>$ dataset)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_a59701ea222dc2cd8cdfb9d53cd2dcc72}{Data\+Model\+::\+Add\+Dataset}. \end{DoxyCompactList}\item 
+void \hyperlink{class_data_model_af0974f3a7271801470c3b5d7c7090eaf}{Remove\+Dataset} (const Q\+String \&name)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_data_model_af0974f3a7271801470c3b5d7c7090eaf}{Data\+Model\+::\+Remove\+Dataset}. \end{DoxyCompactList}\item 
+const mat \& {\bfseries Empty\+Matrix} () const \hypertarget{class_data_model_a699c4261005d596c4ce4b7132020c3a8}{}\label{class_data_model_a699c4261005d596c4ce4b7132020c3a8}
+
+\item 
+bool {\bfseries Has\+Dataset} (const Q\+String \&key) const \hypertarget{class_data_model_a0a3152f311a09d9011a6d00e85a2e8ac}{}\label{class_data_model_a0a3152f311a09d9011a6d00e85a2e8ac}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 24 of file datamodel.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{Data\+Model@{Data\+Model}!Add\+Dataset@{Add\+Dataset}}
+\index{Add\+Dataset@{Add\+Dataset}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Add\+Dataset(\+Q\+Shared\+Pointer$<$ Vespucci\+Dataset $>$ dataset)}{AddDataset(QSharedPointer< VespucciDataset > dataset)}}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+Model\+::\+Add\+Dataset (
+\begin{DoxyParamCaption}
+\item[{Q\+Shared\+Pointer$<$ {\bf Vespucci\+Dataset} $>$}]{dataset}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_model_a59701ea222dc2cd8cdfb9d53cd2dcc72}{}\label{class_data_model_a59701ea222dc2cd8cdfb9d53cd2dcc72}
+
+
+\hyperlink{class_data_model_a59701ea222dc2cd8cdfb9d53cd2dcc72}{Data\+Model\+::\+Add\+Dataset}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset} & Refuses to add a dataset if a dataset with that name already exists will throw invalid\+\_\+argument. \hyperlink{class_vespucci_workspace}{Vespucci\+Workspace} should handle it. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 301 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Analysis\+Results\+Names@{Analysis\+Results\+Names}}
+\index{Analysis\+Results\+Names@{Analysis\+Results\+Names}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Analysis\+Results\+Names(const Q\+String \&dataset\+\_\+key) const }{AnalysisResultsNames(const QString &dataset_key) const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String\+List Data\+Model\+::\+Analysis\+Results\+Names (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{dataset\+\_\+key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_a70071e275893667961ff4262f8d28c9e}{}\label{class_data_model_a70071e275893667961ff4262f8d28c9e}
+
+
+\hyperlink{class_data_model_a70071e275893667961ff4262f8d28c9e}{Data\+Model\+::\+Analysis\+Results\+Names}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset\+\_\+key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Throws invalid\+\_\+argument if dataset doesn\textquotesingle{}t exist 
+\end{DoxyReturn}
+
+
+Definition at line 260 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Auxiliary\+Matrix\+Names@{Auxiliary\+Matrix\+Names}}
+\index{Auxiliary\+Matrix\+Names@{Auxiliary\+Matrix\+Names}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Auxiliary\+Matrix\+Names(const Q\+String \&dataset\+\_\+key) const }{AuxiliaryMatrixNames(const QString &dataset_key) const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String\+List Data\+Model\+::\+Auxiliary\+Matrix\+Names (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{dataset\+\_\+key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_a4086ff5d73459e7499f6f939e0ab3684}{}\label{class_data_model_a4086ff5d73459e7499f6f939e0ab3684}
+
+
+\hyperlink{class_data_model_a4086ff5d73459e7499f6f939e0ab3684}{Data\+Model\+::\+Auxiliary\+Matrix\+Names}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset\+\_\+key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Throws invalid\+\_\+argument if dataset doesn\textquotesingle{}t exist 
+\end{DoxyReturn}
+
+
+Definition at line 275 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Dataset\+Names@{Dataset\+Names}}
+\index{Dataset\+Names@{Dataset\+Names}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Dataset\+Names() const }{DatasetNames() const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+String\+List Data\+Model\+::\+Dataset\+Names (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_ae8e2a93a6c71ca636957faa8208eb6cc}{}\label{class_data_model_ae8e2a93a6c71ca636957faa8208eb6cc}
+
+
+\hyperlink{class_data_model_ae8e2a93a6c71ca636957faa8208eb6cc}{Data\+Model\+::\+Dataset\+Names}. 
+
+\begin{DoxyReturn}{Returns}
+A list of the names of the datasets handled by this model 
+\end{DoxyReturn}
+
+
+Definition at line 247 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Get\+Auxiliary\+Matrix@{Get\+Auxiliary\+Matrix}}
+\index{Get\+Auxiliary\+Matrix@{Get\+Auxiliary\+Matrix}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Get\+Auxiliary\+Matrix(const Q\+String \&dataset\+\_\+key, const Q\+String \&matrix\+\_\+key) const }{GetAuxiliaryMatrix(const QString &dataset_key, const QString &matrix_key) const }}]{\setlength{\rightskip}{0pt plus 5cm}const mat \& Data\+Model\+::\+Get\+Auxiliary\+Matrix (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{dataset\+\_\+key, }
+\item[{const Q\+String \&}]{matrix\+\_\+key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_a826f3ec440b4fbcecb47eb9f1e7ceb3f}{}\label{class_data_model_a826f3ec440b4fbcecb47eb9f1e7ceb3f}
+
+
+\hyperlink{class_data_model_a826f3ec440b4fbcecb47eb9f1e7ceb3f}{Data\+Model\+::\+Get\+Auxiliary\+Matrix}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset\+\_\+key} & \\
+\hline
+{\em matrix\+\_\+key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+reference to the auxiliary matrix named matrix\+\_\+key in the dataset named dataset\+\_\+key Throws invalid argument if invalid auxiliary matrix name given 
+\end{DoxyReturn}
+
+
+Definition at line 178 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Get\+Core\+Matrix@{Get\+Core\+Matrix}}
+\index{Get\+Core\+Matrix@{Get\+Core\+Matrix}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Get\+Core\+Matrix(const Q\+String \&dataset\+\_\+key, const Q\+String \&matrix\+\_\+key) const }{GetCoreMatrix(const QString &dataset_key, const QString &matrix_key) const }}]{\setlength{\rightskip}{0pt plus 5cm}const mat \& Data\+Model\+::\+Get\+Core\+Matrix (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{dataset\+\_\+key, }
+\item[{const Q\+String \&}]{matrix\+\_\+key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_ad168adfafdd3c9c6a7317a77df2c62e5}{}\label{class_data_model_ad168adfafdd3c9c6a7317a77df2c62e5}
+
+
+\hyperlink{class_data_model_ad168adfafdd3c9c6a7317a77df2c62e5}{Data\+Model\+::\+Get\+Core\+Matrix}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset\+\_\+key} & \\
+\hline
+{\em matrix\+\_\+key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The core matrix (spectra\+\_\+, abscissa\+\_\+, x\+\_\+, y\+\_\+ with key matrix\+\_\+key from dataset with key dataset\+\_\+key Throws invalid\+\_\+argument if invalid core matrix name given 
+\end{DoxyReturn}
+
+
+Definition at line 147 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Get\+Dataset@{Get\+Dataset}}
+\index{Get\+Dataset@{Get\+Dataset}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Get\+Dataset(const Q\+String \&key) const }{GetDataset(const QString &key) const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Shared\+Pointer$<$ {\bf Vespucci\+Dataset} $>$ Data\+Model\+::\+Get\+Dataset (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_a39a26795ff351c8f25144c022761c601}{}\label{class_data_model_a39a26795ff351c8f25144c022761c601}
+
+
+\hyperlink{class_data_model_a39a26795ff351c8f25144c022761c601}{Data\+Model\+::\+Get\+Dataset} Get the \hyperlink{class_vespucci_dataset}{Vespucci\+Dataset} named key. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Throws std\+::invalid\+\_\+argument if dataset does not exist 
+\end{DoxyReturn}
+
+
+Definition at line 32 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Get\+Map@{Get\+Map}}
+\index{Get\+Map@{Get\+Map}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Get\+Map(const Q\+String \&dataset\+\_\+key, const Q\+String \&map\+\_\+key) const }{GetMap(const QString &dataset_key, const QString &map_key) const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Shared\+Pointer$<$ {\bf Map\+Data} $>$ Data\+Model\+::\+Get\+Map (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{dataset\+\_\+key, }
+\item[{const Q\+String \&}]{map\+\_\+key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_a190e371dfaa3045527af6f6d2e41cf32}{}\label{class_data_model_a190e371dfaa3045527af6f6d2e41cf32}
+
+
+\hyperlink{class_data_model_a190e371dfaa3045527af6f6d2e41cf32}{Data\+Model\+::\+Get\+Map} Get the \hyperlink{class_map_data}{Map\+Data} object named map\+\_\+key from dataset named dataset\+\_\+key. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset\+\_\+key} & \\
+\hline
+{\em map\+\_\+key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Throws std\+::invalid\+\_\+argument if dataset or map does not exist 
+\end{DoxyReturn}
+
+
+Definition at line 81 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Get\+Results@{Get\+Results}}
+\index{Get\+Results@{Get\+Results}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Get\+Results(const Q\+String \&dataset\+\_\+key, const Q\+String \&results\+\_\+key) const }{GetResults(const QString &dataset_key, const QString &results_key) const }}]{\setlength{\rightskip}{0pt plus 5cm}Q\+Shared\+Pointer$<$ {\bf Analysis\+Results} $>$ Data\+Model\+::\+Get\+Results (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{dataset\+\_\+key, }
+\item[{const Q\+String \&}]{results\+\_\+key}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_data_model_af277d915c6a3aa8a2d3d38378bfdd02f}{}\label{class_data_model_af277d915c6a3aa8a2d3d38378bfdd02f}
+
+
+\hyperlink{class_data_model_af277d915c6a3aa8a2d3d38378bfdd02f}{Data\+Model\+::\+Get\+Results} Get the \hyperlink{class_analysis_results}{Analysis\+Results} object named results\+\_\+key from the dataset named dataset\+\_\+key. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dataset\+\_\+key} & \\
+\hline
+{\em results\+\_\+key} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Throws std\+::invalid\+\_\+argument if dataset does not exist or dataset does exist but analysis result does not exist. text will specify. 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file datamodel.\+cpp.
+
+\index{Data\+Model@{Data\+Model}!Remove\+Dataset@{Remove\+Dataset}}
+\index{Remove\+Dataset@{Remove\+Dataset}!Data\+Model@{Data\+Model}}
+\subsubsection[{\texorpdfstring{Remove\+Dataset(const Q\+String \&name)}{RemoveDataset(const QString &name)}}]{\setlength{\rightskip}{0pt plus 5cm}void Data\+Model\+::\+Remove\+Dataset (
+\begin{DoxyParamCaption}
+\item[{const Q\+String \&}]{name}
+\end{DoxyParamCaption}
+)}\hypertarget{class_data_model_af0974f3a7271801470c3b5d7c7090eaf}{}\label{class_data_model_af0974f3a7271801470c3b5d7c7090eaf}
+
+
+\hyperlink{class_data_model_af0974f3a7271801470c3b5d7c7090eaf}{Data\+Model\+::\+Remove\+Dataset}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 311 of file datamodel.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vespucci/\+Global/datamodel.\+h\item 
+Vespucci/\+Global/datamodel.\+cpp\end{DoxyCompactItemize}

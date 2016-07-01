@@ -1,0 +1,101 @@
+\hypertarget{class_p_l_s_data}{}\section{P\+L\+S\+Data Class Reference}
+\label{class_p_l_s_data}\index{P\+L\+S\+Data@{P\+L\+S\+Data}}
+
+
+The \hyperlink{class_p_l_s_data}{P\+L\+S\+Data} class A class for performing and storing data related to partial least squares determinant analysis.  
+
+
+
+
+{\ttfamily \#include $<$plsdata.\+h$>$}
+
+Inheritance diagram for P\+L\+S\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_p_l_s_data}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries P\+L\+S\+Data} (Q\+String name)\hypertarget{class_p_l_s_data_a6400880564930ffc4ce682530f71907e}{}\label{class_p_l_s_data_a6400880564930ffc4ce682530f71907e}
+
+\item 
+bool \hyperlink{class_p_l_s_data_afef483f154b9c1daa2b82231e2d801c6}{Classify} (const mat \&spectra, const vec \&wavelength, int components)
+\begin{DoxyCompactList}\small\item\em P\+L\+S\+Data\+::\+Apply. \end{DoxyCompactList}\item 
+bool {\bfseries Calibrate} (const mat \&spectra, const mat \&controls)\hypertarget{class_p_l_s_data_a05e5883f1b22574cbbc6d84854b408fc}{}\label{class_p_l_s_data_a05e5883f1b22574cbbc6d84854b408fc}
+
+\item 
+bool \hyperlink{class_p_l_s_data_a03d83a38859dde637706399508ca617c}{Discriminate} (const mat \&data, const vec \&labels)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_p_l_s_data_a03d83a38859dde637706399508ca617c}{P\+L\+S\+Data\+::\+Discriminate}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_p_l_s_data}{P\+L\+S\+Data} class A class for performing and storing data related to partial least squares determinant analysis. 
+
+Definition at line 29 of file plsdata.\+h.
+
+
+
+\subsection{Member Function Documentation}
+\index{P\+L\+S\+Data@{P\+L\+S\+Data}!Classify@{Classify}}
+\index{Classify@{Classify}!P\+L\+S\+Data@{P\+L\+S\+Data}}
+\subsubsection[{\texorpdfstring{Classify(const mat \&spectra, const vec \&wavelength, int components)}{Classify(const mat &spectra, const vec &wavelength, int components)}}]{\setlength{\rightskip}{0pt plus 5cm}bool P\+L\+S\+Data\+::\+Classify (
+\begin{DoxyParamCaption}
+\item[{const mat \&}]{spectra, }
+\item[{const vec \&}]{wavelength, }
+\item[{int}]{components}
+\end{DoxyParamCaption}
+)}\hypertarget{class_p_l_s_data_afef483f154b9c1daa2b82231e2d801c6}{}\label{class_p_l_s_data_afef483f154b9c1daa2b82231e2d801c6}
+
+
+P\+L\+S\+Data\+::\+Apply. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spectra} & Input matrix \\
+\hline
+{\em wavelength} & Spectral abscissa \\
+\hline
+{\em components} & Number of components to calculate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Performs P\+LS analysis on the spectra matrix. 
+\end{DoxyReturn}
+
+
+Definition at line 35 of file plsdata.\+cpp.
+
+\index{P\+L\+S\+Data@{P\+L\+S\+Data}!Discriminate@{Discriminate}}
+\index{Discriminate@{Discriminate}!P\+L\+S\+Data@{P\+L\+S\+Data}}
+\subsubsection[{\texorpdfstring{Discriminate(const mat \&data, const vec \&labels)}{Discriminate(const mat &data, const vec &labels)}}]{\setlength{\rightskip}{0pt plus 5cm}bool P\+L\+S\+Data\+::\+Discriminate (
+\begin{DoxyParamCaption}
+\item[{const mat \&}]{data, }
+\item[{const vec \&}]{labels}
+\end{DoxyParamCaption}
+)}\hypertarget{class_p_l_s_data_a03d83a38859dde637706399508ca617c}{}\label{class_p_l_s_data_a03d83a38859dde637706399508ca617c}
+
+
+\hyperlink{class_p_l_s_data_a03d83a38859dde637706399508ca617c}{P\+L\+S\+Data\+::\+Discriminate}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+{\em labels} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Perform P\+L\+S-\/\+DA 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file plsdata.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vespucci/\+Data/\+Analysis/plsdata.\+h\item 
+Vespucci/\+Data/\+Analysis/plsdata.\+cpp\end{DoxyCompactItemize}

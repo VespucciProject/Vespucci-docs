@@ -1,0 +1,83 @@
+\hypertarget{class_dataset_loader}{}\section{Dataset\+Loader Class Reference}
+\label{class_dataset_loader}\index{Dataset\+Loader@{Dataset\+Loader}}
+
+
+The \hyperlink{class_dataset_loader}{Dataset\+Loader} class This class loads the \hyperlink{namespace_vespucci}{Vespucci} Dataset archive (a Z\+IP file saved as .vds) The constructor initializes the Qua\+Zip object corresponding the the archive. The manifest is loaded using Load\+Manifest(); The Y\+A\+ML data in the manifest is parsed by yaml-\/cpp into and the structures are populated by their keys and empty matrices. The empty matrices are then loaded from the .bin files using Load\+Objects.  
+
+
+
+
+{\ttfamily \#include $<$datasetloader.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_dataset_loader_ab5fb686a79243a7335fa72ed708a7c7e}{Dataset\+Loader} (Q\+String filename)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_dataset_loader_ab5fb686a79243a7335fa72ed708a7c7e}{Dataset\+Loader\+::\+Dataset\+Loader}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_dataset_loader_a7d541be8857c2187a2145d15c1d91346}{Get\+Data} (Q\+Map$<$ Q\+String, mat $>$ \&core\+\_\+objects, Q\+Map$<$ Q\+String, Q\+Map$<$ Q\+String, mat $>$ $>$ \&calcualted\+\_\+objects, Q\+Map$<$ Q\+String, Q\+String $>$ \&metadata)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_dataset_loader_a7d541be8857c2187a2145d15c1d91346}{Dataset\+Loader\+::\+Get\+Data}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_dataset_loader}{Dataset\+Loader} class This class loads the \hyperlink{namespace_vespucci}{Vespucci} Dataset archive (a Z\+IP file saved as .vds) The constructor initializes the Qua\+Zip object corresponding the the archive. The manifest is loaded using Load\+Manifest(); The Y\+A\+ML data in the manifest is parsed by yaml-\/cpp into and the structures are populated by their keys and empty matrices. The empty matrices are then loaded from the .bin files using Load\+Objects. 
+
+Definition at line 40 of file datasetloader.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Dataset\+Loader@{Dataset\+Loader}!Dataset\+Loader@{Dataset\+Loader}}
+\index{Dataset\+Loader@{Dataset\+Loader}!Dataset\+Loader@{Dataset\+Loader}}
+\subsubsection[{\texorpdfstring{Dataset\+Loader(\+Q\+String filename)}{DatasetLoader(QString filename)}}]{\setlength{\rightskip}{0pt plus 5cm}Dataset\+Loader\+::\+Dataset\+Loader (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{filename}
+\end{DoxyParamCaption}
+)}\hypertarget{class_dataset_loader_ab5fb686a79243a7335fa72ed708a7c7e}{}\label{class_dataset_loader_ab5fb686a79243a7335fa72ed708a7c7e}
+
+
+\hyperlink{class_dataset_loader_ab5fb686a79243a7335fa72ed708a7c7e}{Dataset\+Loader\+::\+Dataset\+Loader}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 26 of file datasetloader.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{Dataset\+Loader@{Dataset\+Loader}!Get\+Data@{Get\+Data}}
+\index{Get\+Data@{Get\+Data}!Dataset\+Loader@{Dataset\+Loader}}
+\subsubsection[{\texorpdfstring{Get\+Data(\+Q\+Map$<$ Q\+String, mat $>$ \&core\+\_\+objects, Q\+Map$<$ Q\+String, Q\+Map$<$ Q\+String, mat $>$ $>$ \&calcualted\+\_\+objects, Q\+Map$<$ Q\+String, Q\+String $>$ \&metadata)}{GetData(QMap< QString, mat > &core_objects, QMap< QString, QMap< QString, mat > > &calcualted_objects, QMap< QString, QString > &metadata)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Dataset\+Loader\+::\+Get\+Data (
+\begin{DoxyParamCaption}
+\item[{Q\+Map$<$ Q\+String, mat $>$ \&}]{core\+\_\+objects, }
+\item[{Q\+Map$<$ Q\+String, Q\+Map$<$ Q\+String, mat $>$ $>$ \&}]{calcualted\+\_\+objects, }
+\item[{Q\+Map$<$ Q\+String, Q\+String $>$ \&}]{metadata}
+\end{DoxyParamCaption}
+)}\hypertarget{class_dataset_loader_a7d541be8857c2187a2145d15c1d91346}{}\label{class_dataset_loader_a7d541be8857c2187a2145d15c1d91346}
+
+
+\hyperlink{class_dataset_loader_a7d541be8857c2187a2145d15c1d91346}{Dataset\+Loader\+::\+Get\+Data}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em core\+\_\+objects} & \\
+\hline
+{\em calcualted\+\_\+objects} & \\
+\hline
+{\em metadata} & Returns the loaded data The \hyperlink{class_vespucci_dataset}{Vespucci\+Dataset} object that spawned this object uses this function to initialize its members \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 72 of file datasetloader.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vespucci/\+Data/\+Import/datasetloader.\+h\item 
+Vespucci/\+Data/\+Import/datasetloader.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,103 @@
+\hypertarget{class_analysis_results}{}\section{Analysis\+Results Class Reference}
+\label{class_analysis_results}\index{Analysis\+Results@{Analysis\+Results}}
+
+
+The \hyperlink{class_analysis_results}{Analysis\+Results} class A container for a mat object that allows a mat to be copied to a heap-\/allocated object (this) so pointers to that mat cannot go out of scope. These objects should be heap-\/allocated inside smart pointers.  
+
+
+
+
+{\ttfamily \#include $<$analysisresults.\+h$>$}
+
+Inheritance diagram for Analysis\+Results\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.357576cm]{class_analysis_results}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_analysis_results_a57948e7a68b5bf5fde4bb9b529bc74f8}{Analysis\+Results} (Q\+String name, Q\+String type)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_analysis_results_a57948e7a68b5bf5fde4bb9b529bc74f8}{Analysis\+Results\+::\+Analysis\+Results}. \end{DoxyCompactList}\item 
+const mat \& {\bfseries Get\+Matrix} (const Q\+String \&key)\hypertarget{class_analysis_results_a3211ec604d58c2ea34e50cd3e7c49572}{}\label{class_analysis_results_a3211ec604d58c2ea34e50cd3e7c49572}
+
+\item 
+void {\bfseries Add\+Matrix} (const Q\+String \&key, const mat \&value, Q\+String\+List column\+\_\+headings=Q\+String\+List())\hypertarget{class_analysis_results_a2349a9295a929c61c5084204145dbab4}{}\label{class_analysis_results_a2349a9295a929c61c5084204145dbab4}
+
+\item 
+void {\bfseries Add\+Metadata} (Q\+String key, Q\+String value)\hypertarget{class_analysis_results_ab35691d76d1d1f677e66d9cc13d1a519}{}\label{class_analysis_results_ab35691d76d1d1f677e66d9cc13d1a519}
+
+\item 
+void {\bfseries Add\+Field} (const Q\+String \&key, const field$<$ mat $>$ \&value)\hypertarget{class_analysis_results_a53ec2238480b31e731f92535933e8b71}{}\label{class_analysis_results_a53ec2238480b31e731f92535933e8b71}
+
+\item 
+const field$<$ mat $>$ \& {\bfseries Get\+Field} (const Q\+String \&key)\hypertarget{class_analysis_results_aa965980fdbb9951feb590b8eb4d40f44}{}\label{class_analysis_results_aa965980fdbb9951feb590b8eb4d40f44}
+
+\item 
+const mat \& {\bfseries Get\+Field\+Element} (const Q\+String \&key, const uword \&index)\hypertarget{class_analysis_results_a87e819162ca27952bf7e4393348b00c9}{}\label{class_analysis_results_a87e819162ca27952bf7e4393348b00c9}
+
+\item 
+bool {\bfseries Has\+Field} (const Q\+String \&key) const \hypertarget{class_analysis_results_adefe903488915b979a37e7fb93ae3747}{}\label{class_analysis_results_adefe903488915b979a37e7fb93ae3747}
+
+\item 
+bool {\bfseries Has\+Matrix} (const Q\+String \&key) const \hypertarget{class_analysis_results_a7ff410b4275328eb6c0c052457909501}{}\label{class_analysis_results_a7ff410b4275328eb6c0c052457909501}
+
+\item 
+const Q\+String\+List {\bfseries Key\+List} () const \hypertarget{class_analysis_results_a4f2a23b3461e50e96615e13fba5eab68}{}\label{class_analysis_results_a4f2a23b3461e50e96615e13fba5eab68}
+
+\item 
+const Q\+String {\bfseries name} () const \hypertarget{class_analysis_results_a62f30547afe13cf20869c6949457f68d}{}\label{class_analysis_results_a62f30547afe13cf20869c6949457f68d}
+
+\item 
+const Q\+String {\bfseries type} () const \hypertarget{class_analysis_results_a1211edd55e255b6a3571cb47a4a34809}{}\label{class_analysis_results_a1211edd55e255b6a3571cb47a4a34809}
+
+\item 
+const mat \& {\bfseries Empty\+Matrix} ()\hypertarget{class_analysis_results_a7e543ccde6636b915bd193bd4ebbe9a9}{}\label{class_analysis_results_a7e543ccde6636b915bd193bd4ebbe9a9}
+
+\item 
+const Q\+Map$<$ Q\+String, Q\+String $>$ {\bfseries Get\+Metadata} () const \hypertarget{class_analysis_results_abe9a8bf2d52dd04a09dd33004e6521ac}{}\label{class_analysis_results_abe9a8bf2d52dd04a09dd33004e6521ac}
+
+\item 
+const Q\+String {\bfseries Get\+Column\+Heading} (const Q\+String \&key, int column)\hypertarget{class_analysis_results_a6d306bc1abb09b1e41bcf0a3effc4bf6}{}\label{class_analysis_results_a6d306bc1abb09b1e41bcf0a3effc4bf6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_analysis_results}{Analysis\+Results} class A container for a mat object that allows a mat to be copied to a heap-\/allocated object (this) so pointers to that mat cannot go out of scope. These objects should be heap-\/allocated inside smart pointers. 
+
+Definition at line 34 of file analysisresults.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Analysis\+Results@{Analysis\+Results}!Analysis\+Results@{Analysis\+Results}}
+\index{Analysis\+Results@{Analysis\+Results}!Analysis\+Results@{Analysis\+Results}}
+\subsubsection[{\texorpdfstring{Analysis\+Results(\+Q\+String name, Q\+String type)}{AnalysisResults(QString name, QString type)}}]{\setlength{\rightskip}{0pt plus 5cm}Analysis\+Results\+::\+Analysis\+Results (
+\begin{DoxyParamCaption}
+\item[{Q\+String}]{name, }
+\item[{Q\+String}]{type}
+\end{DoxyParamCaption}
+)}\hypertarget{class_analysis_results_a57948e7a68b5bf5fde4bb9b529bc74f8}{}\label{class_analysis_results_a57948e7a68b5bf5fde4bb9b529bc74f8}
+
+
+\hyperlink{class_analysis_results_a57948e7a68b5bf5fde4bb9b529bc74f8}{Analysis\+Results\+::\+Analysis\+Results}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em type} & Base constructor \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file analysisresults.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Vespucci/\+Data/\+Analysis/analysisresults.\+h\item 
+Vespucci/\+Data/\+Analysis/analysisresults.\+cpp\end{DoxyCompactItemize}
