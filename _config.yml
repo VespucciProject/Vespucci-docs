@@ -1,6 +1,6 @@
 # Site title and subtitle. This is used in _includes/header.html
-title: 'jekyll-docs-template'
-subtitle: 'Painless documentation for your projects'
+title: 'Vespucci User Manual'
+subtitle: ''
 
 # if you wish to integrate disqus on pages set your shortname here
 disqus_shortname: ''
@@ -8,22 +8,25 @@ disqus_shortname: ''
 # if you use google analytics, add your tracking id here
 google_analytics_id: ''
 
-# Enable/show navigation. There are there options:
+# Enable/show navigation. There are three options:
 #   0 - always hide
 #   1 - always show
 #   2 - show only if posts are present
 navigation: 2
 
 # URL to source code, used in _includes/footer.html
-codeurl: 'https://github.com/bruth/jekyll-docs-template'
+codeurl: 'https://github.com/VespucciProject/Vespucci'
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['doc', 'Documentation'],
-    ['tut', 'Tutorial'],
-    ['ref', 'Reference'],
-    ['dev', 'Developers'],
-    ['post', 'Posts']
+    ['gs', 'Getting Started'],
+    ['dat', 'Data Import/Export'],
+    ['pro', 'Spectral Processing'],
+    ['uni', 'Univariate Analysis'],
+    ['mul', 'Multivariate Analysis'],
+    ['img', 'Imaging'],
+    ['pf', 'Peak Finding'],
+    ['adv', 'Advanced Features']
 ]
 
 # Keep as an empty string if served up at the root. If served up at a specific
