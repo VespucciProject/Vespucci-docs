@@ -9,15 +9,15 @@ Normalization is a processing technique used in spectral analysis. Its primary p
 
 First, the desired dataset should be imported. Frequently, spectral data is baseline-corrected before normalization. After these steps, simply click the Processing tab and select Normalize/Standardize.
 
-![Vespucci-NormalizeDialog](https://gabowers.github.io/Vespucci-docs/img/Normalize1.png)
+![Vespucci-NormalizeDialog](Vespucci-docs/img/Normalize1.png)
 
 Next, the desired form of normalization should be selected. A short description of each method is below.
 
-![Vespucci-NormalizeSelect](https://gabowers.github.io/Vespucci-docs/img/Normalize2.png)
+![Vespucci-NormalizeSelect](Vespucci-docs/img/Normalize2.png)
 
 This should then cause all spectra to be normalized, as seen below.
 
-![Vespucci-NormalizeShow](https://gabowers.github.io/Vespucci-docs/img/Normalize3.png)
+![Vespucci-NormalizeShow](Vespucci-docs/img/Normalize3.png)
 
 
 
@@ -25,20 +25,20 @@ This should then cause all spectra to be normalized, as seen below.
 
 Vespucci supports 9 types of normalization: Min/Max, Unit Length, Unit Area, Z-score, Standard Normal Variate, Peak Intensity, Scale Spectra, Absolute Value, and Mean Center.
 
-##### Min/Max #####
+*Min/Max*
 
-##### Unit Length #####
+*Unit Length*
 
-##### Unit Area #####
+*Unit Area*
 
-##### Z-score #####
+*Z-score*
 
-##### Standard Normal Variate #####
+*Standard Normal Variate*
 
-##### Peak Intensity #####
+*Peak Intensity*
 
-##### Scale Spectra #####
+*Scale Spectra*
 
-##### Absolute Value #####
+*Absolute Value*
 
-##### Mean Center #####
+*Mean Center*
