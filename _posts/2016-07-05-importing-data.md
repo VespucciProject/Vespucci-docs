@@ -16,6 +16,8 @@ Once this is complete, the selected file should be visible in the "browse" windo
 
 ![Vespucci-ImportFileDialog](Vespucci-docs/img/ImportFile3.png)
 
+Additionally, the "long" or "wide" data formats can be selected. Long data separates all values into columns, such that all abscissa points, with their corresponding spectra values, would be on individual rows. Wide text puts all abscissa points first, with the spectra values later. This is slightly more complex when a "map" (spectral data taken over a 2D grid) is involved. 
+
 Once this is finished, various options such as axis units or description can be changed as desired. Once finished, press "OK."
 
 ![Vespucci-ImportFileSuccess](Vespucci-docs/img/ImportFile4.png)
