@@ -25,20 +25,38 @@ This should then cause all spectra to be normalized, as seen below.
 
 Vespucci supports 9 types of normalization: Min/Max, Unit Length, Unit Area, Z-score, Standard Normal Variate, Peak Intensity, Scale Spectra, Absolute Value, and Mean Center.
 
-*Min/Max
+**Min/Max**
 
-*Unit Length
+Min/max normalization simply defines the highest point in a spectrum as 1, and the lowest as 0, to result in a range from 0-1.
 
-*Unit Area
+**Unit Length**
 
-*Z-score
+Unit length normalization takes the magnitude of the vector and sets it equal to 1.
 
-*Standard Normal Variate
+**Unit Area**
 
-*Peak Intensity
+Unit area normalization defines the area under the sprctrum as 1.
 
-*Scale Spectra
+**Z-score**
 
-*Absolute Value
+Z-score normalization takes the mean value of a spectra and compares every point to that and the standard deviation of all points, creating a scale based on standard deviation.
 
-*Mean Center
+**Standard Normal Variate**
+
+
+
+**Peak Intensity**
+
+
+
+**Scale Spectra**
+
+
+
+**Absolute Value**
+
+Absolute value takes the absolute value of each point on each spectrum.
+
+**Mean Center**
+
+In mean centering, the average spectrum of a dataset is calculated, then subtracted from each individual spectra.
