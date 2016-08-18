@@ -39,19 +39,19 @@ Unit area normalization defines the area under the sprctrum as 1.
 
 **Z-score**
 
-Z-score normalization takes the mean value of a spectra and compares every point to that and the standard deviation of all points, creating a scale based on standard deviation.
+Z-score normalization takes the mean value of a spectrum and compares every point to that and the standard deviation of all points, creating a scale based on standard deviation. It also normalizes spectra by columns.
 
 **Standard Normal Variate**
 
-
+Standard Normal Variate is much like Z-score normalization, except that it normalizes spectra by rows, and it takes the mean value and standard deviation of all points at a particular wavenumber in *all* spectra.
 
 **Peak Intensity**
 
-
+Peak intensity normalization takes a user-defined wavenumber range and makes the height of any peak in that range 1.
 
 **Scale Spectra**
 
-
+The scale spectra option allows a user to multiply a spectra by any desired value: 100, -1, etc. Scaling by -1 allows one to invert negative peaks.
 
 **Absolute Value**
 
