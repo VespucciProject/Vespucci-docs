@@ -10,7 +10,7 @@ Installing Vespucci requires first going to the website, vespucciproject.org, an
 
 ![Vespucci-InstallWebPage](Vespucci-docs/img/Install1.png)
 
-Once the selecting the above option allows one to select the desired operating system, after which a file will be downloaded.
+Selecting the above option allows one to select the desired operating system, after which a file will be downloaded.
 
 If on Windows, a ZIP file will be downloaded. This file must be extracted before use. It can be extracted anywhere.
 
