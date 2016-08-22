@@ -9,7 +9,7 @@ Normalization is a processing technique used in spectral analysis. Its primary p
 
 First, the desired dataset should be imported. Frequently, spectral data is baseline-corrected before normalization. After these steps, simply click the Processing tab and select Normalize/Standardize.
 
-![Vespucci-NormalizeDialog](Vespucci-docs/img/Normalize1.png)
+![Vespucci-NormalizeDialog](img/Normalize1.png)
 
 Next, the desired form of normalization should be selected. A short description of each method is below.
 
