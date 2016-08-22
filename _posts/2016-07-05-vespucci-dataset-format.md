@@ -13,5 +13,5 @@ Matrices that are generated from analysis are each stored as groups. These group
 
 The hierarchy of the format mirrors that displayed in the Vespucci main window.
 
-To save an HDF5 that can be opened by Vespucci you must have datasets named "Spectra" and "Spectral Abscissa" belonging to the root of the file. Your file must be only two groups deep. Datasets belonging to the root of the file that are not named one of the four reserved names will be ignored. All matrices will be imported as row-major.
+To save an HDF5 that can be opened by Vespucci you must have datasets named "Spectra" and "Spectral Abscissa" belonging to the root of the file. Your file must be only two groups deep. Datasets belonging to the root of the file that are not named one of the four reserved names will be ignored. All matrices will be imported as row-major. "Spectral Abscissa" must have only one row and the same number of columns as "Spectra".
 
