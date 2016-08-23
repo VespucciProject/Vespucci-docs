@@ -13,25 +13,31 @@ The vespucci user interfact consists of 6 sections, shown below.
 Each section will be described briefly, then in more detail.
 
 **A. Menu Bar**
+
 The menu bar contains all of the general commands for controlling Vespucci: dataset import/export, manipulation, etc. In a Mac OS, this is at the top of the screen (or wherever one's taskbar is at).
 
 **B. Toolbar**
+
 The toolbar contains a group of shortcuts for frequent actions in Vespucci.
 
 **C. Dataset Navigator**
+
 The dataset navigator is used to move through the dataset and any added elements, such as a multivariate analysis.
 
 **D. Spectrum Viewer**
+
 The spectrum viewer allows one to view the individual indices of a map (a map is a 2-dimensional grid, with point spectra at each point on the grid).
 
 **E. Data Viewer**
+
 The data viewer allows one to view the actual values for a matrix one selects in the dataset navigator.
 
 **F. Plot Viewer**
+
 The plot viewer is used to view any two elements, most frequently spectra, but occasionally other elements such as PCA (Principle Components Analysis) loadings.
 
 
-###Menu Bar###
+###Menu### ###Bar###
 
 The menu bar contains 8 elements.
 
