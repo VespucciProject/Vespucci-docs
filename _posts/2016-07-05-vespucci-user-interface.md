@@ -71,8 +71,6 @@ The menu bar contains 8 elements.
 
 **Window** - this shows various dialogs of Vespucci which can be enabled as needed. The most commonly used dialogs are enabled automatically. New dialogs are opened in a new window, rather than as a part of the standard Vespucci window.
 
-** 
-
 **Help** - This contains information about using Vespucci.
 
 
