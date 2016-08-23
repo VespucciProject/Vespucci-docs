@@ -14,7 +14,7 @@ Each section will be described briefly, then in more detail.
 
 **A. Menu Bar**
 
-The menu bar contains all of the general commands for controlling Vespucci: dataset import/export, manipulation, etc. In a Mac OS, this is at the top of the screen (or wherever one's taskbar is at).
+The menu bar contains all of the general commands for controlling Vespucci: dataset import/export, manipulation, etc. On a Mac OS, this is at the top of the screen.
 
 **B. Toolbar**
 
@@ -71,4 +71,27 @@ The menu bar contains 8 elements.
 
 **Window** - this shows various dialogs of Vespucci which can be enabled as needed. The most commonly used dialogs are enabled automatically. New dialogs are opened in a new window, rather than as a part of the standard Vespucci window.
 
+** 
+
 **Help** - This contains information about using Vespucci.
+
+
+### Toolbar
+
+The toolbar contains 8 elements, described below.
+
+**Open Dataset** - opens a file saved in the Vespucci format (.h5).
+
+**Save Dataset** - saves the dataset in the Vespucci format.
+
+**Import Dataset** - imports a single dataset. This is described in more detail on the "Importing Data" page.
+
+**Import Datasets** - imports multiple "point spectra" datasets. This is described in more detail on the "Importing Data" page.
+
+**Close Dataset** - closes the current dataset.
+
+**Plot Result** - plots the elements in a matrix versus one another, unless a different abscissa is selected. For example, when using this with the "spectra" matrix, the y vs. x are values in the matrix itself. In this case, the spectral abscissa is automatically selected (which then ignores the selected x value), but that can be changed by changing the abscissa value from "Spectral Abscissa" to "Column."
+
+**Create Color Map** - creates a map of the matrix elements. This can only be done if the number of elements is the same as the x and y values.
+
+**Info** - gives various info about the selected matrix.
