@@ -37,7 +37,7 @@ The data viewer allows one to view the actual values for a matrix one selects in
 The plot viewer is used to view any two elements, most frequently spectra, but occasionally other elements such as PCA (Principle Components Analysis) loadings.
 
 
-###Menu### ###Bar###
+###Menu Bar
 
 The menu bar contains 8 elements.
 
