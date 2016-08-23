@@ -19,17 +19,25 @@ Once this is complete, the selected file should be visible in the "browse" windo
 Additionally, the "long" or "wide" data formats can be selected. Long data separates all values into columns, such that all abscissa points, with their corresponding spectra values, would be paired on individual rows. Wide text puts all abscissa points first, with the spectra values later, with individual rows for each. This is slightly more complex when a "map" (spectral data taken over a 2D grid) is involved. 
 
 "Wide Text" layout:
+
+
 ```
       ν0.......νn
 x0 y0 z0,0...z0,n
 ..... ...........
 xm ym z0,m...zm,n
 ```
+
+
 "Long Text" layout:
+
+
 ```
 x0 y0 ν0 z0,0
 x1 y1 ν0 z1,0
 ```
+
+
 
 Once this is finished, various options such as axis units or description can be changed as desired (the default values for these can be changed in the settings). Once finished, press "OK."
 
