@@ -6,7 +6,7 @@ date: 2016-07-05 16:21:24
 ---
 
 
-The vespucci user interfact consists of 6 sections, shown below.
+The Vespucci user interface consists of 6 sections, shown below.
 
 ![Vespucci-UI](http://vespucciproject.org/Vespucci-docs/img/Vespucci_UI1.png)
 
@@ -122,6 +122,6 @@ The data viewer contains all elements of a selected matrix. Please note that, un
 
 ### Plot Viewer
 
-The plot viewer simply allows one to view data as a graphical plot. Each time a new plot is selected (such as in the spectrum viewer, or if one manual creates a plot from PCA loadings for example), a new tab is created with the new plot.
+The plot viewer simply allows one to view data as a graphical plot. Each time a new plot is selected (such as in the spectrum viewer, or if one manually creates a plot from PCA loadings for example), a new tab is created with the new plot.
 
 The "Hold" checkbox, however, allows one to keep the current tab open and *not* open any new tabs. Thus, checking "Hold" and selecting various spectra would keep the tab and simply change out the spectra each time. This can minimize the cumbersome nature of multiple tabs. In addition to this, by keeping the "Keep in Plot Viewer" option checked as well, one can "stack" various spectra on the same plot to view at the same time. Please note that the plot will scale to the largest spectra.
