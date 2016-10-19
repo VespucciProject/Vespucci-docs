@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['offset',['offset',['../class_q_c_p_axis.html#aebc032ac6eea164a02859c017f52d5e7',1,'QCPAxis']]],
+  ['ohlcselecttest',['ohlcSelectTest',['../class_q_c_p_financial.html#a9c7d79351e728a67bfb6821c1d1bd6c0',1,'QCPFinancial']]],
+  ['operations',['operations',['../class_vespucci_dataset.html#a0057d167b15a791e5ec0961de1a0fb08',1,'VespucciDataset']]],
+  ['operator_21_3d',['operator!=',['../class_q_c_p_range.html#a9b9016ee83dea60573abb9a5ef4cdbcb',1,'QCPRange::operator!=()'],['../class_q_c_p_color_gradient.html#ac641f5d2dc1686201d3cb602c871791d',1,'QCPColorGradient::operator!=()']]],
+  ['operator_2a',['operator*',['../qcustomplot_8h.html#a558b1248ff6a9e41fd5b2630555a8acc',1,'operator*(const QCPRange &amp;range, double value):&#160;qcustomplot.h'],['../qcustomplot_8h.html#a5cb2332f6957021f47cc768089f4f090',1,'operator*(double value, const QCPRange &amp;range):&#160;qcustomplot.h']]],
+  ['operator_2a_3d',['operator*=',['../class_q_c_p_range.html#a6876aa9620ff2f0f7f1873f998372cef',1,'QCPRange']]],
+  ['operator_2b',['operator+',['../qcustomplot_8h.html#aede14e69c31568a75bd3e9286603c9e0',1,'operator+(const QCPRange &amp;range, double value):&#160;qcustomplot.h'],['../qcustomplot_8h.html#aa7dd8efde53d115b7107826194879069',1,'operator+(double value, const QCPRange &amp;range):&#160;qcustomplot.h']]],
+  ['operator_2b_3d',['operator+=',['../class_q_c_p_range.html#afea7c1aa7d08f061cd9bd8832f957df8',1,'QCPRange']]],
+  ['operator_2d',['operator-',['../qcustomplot_8h.html#a797f82830b516646da8873f82e39e356',1,'qcustomplot.h']]],
+  ['operator_2d_3d',['operator-=',['../class_q_c_p_range.html#a95894bcb15a16a75ca564091374e2191',1,'QCPRange']]],
+  ['operator_2f',['operator/',['../qcustomplot_8h.html#a4b366a3a21974c88e09b0d39d4a24a4b',1,'qcustomplot.h']]],
+  ['operator_2f_3d',['operator/=',['../class_q_c_p_range.html#a6137d8682b6835ace840730b4c1e2d63',1,'QCPRange']]],
+  ['operator_3d',['operator=',['../class_q_c_p_color_map_data.html#afdf4dd1b2f5714234fe84709b85c2a8d',1,'QCPColorMapData']]],
+  ['operator_3d_3d',['operator==',['../class_q_c_p_range.html#aa20f91509687505e25bd2ef10d2f0e15',1,'QCPRange::operator==()'],['../class_q_c_p_color_gradient.html#aada47d8206bf2cec77462653bf471c13',1,'QCPColorGradient::operator==()']]],
+  ['opposite',['opposite',['../class_q_c_p_axis.html#aa85ba73dfee6483e23825461b725e363',1,'QCPAxis']]],
+  ['ordinaryleastsquares',['OrdinaryLeastSquares',['../namespace_vespucci_1_1_math_1_1_lin_least_sq.html#a0d546882cc42b03b43b10225d373e330',1,'Vespucci::Math::LinLeastSq::OrdinaryLeastSquares(const arma::mat &amp;X, const arma::mat &amp;y)'],['../namespace_vespucci_1_1_math_1_1_lin_least_sq.html#a5485ad8c427e07cfdb6c566fbd3d6fbf',1,'Vespucci::Math::LinLeastSq::OrdinaryLeastSquares(const arma::mat &amp;X, const arma::mat &amp;y, arma::mat &amp;coef_errors, arma::mat &amp;predicted)'],['../namespace_vespucci_1_1_math_1_1_lin_least_sq.html#af0627d7913161f2d15b32392d04313c9',1,'Vespucci::Math::LinLeastSq::OrdinaryLeastSquares(const arma::mat &amp;X, const arma::vec &amp;y, arma::vec &amp;fit, std::map&lt; std::string, double &gt; &amp;stats)']]],
+  ['orientation',['orientation',['../class_q_c_p_axis.html#a57483f2f60145ddc9e63f3af53959265',1,'QCPAxis::orientation() const '],['../class_q_c_p_axis.html#a9a68b3e45f1b1e33d4d807822342516c',1,'QCPAxis::orientation(AxisType type)']]],
+  ['orth',['orth',['../namespace_vespucci_1_1_math.html#a9ae51093bbdcdae2b8e6772d8951889c',1,'Vespucci::Math']]],
+  ['outerrect',['outerRect',['../class_q_c_p_layout_element.html#a60bbddee2d1230c2414bd776f44d17b8',1,'QCPLayoutElement']]],
+  ['outliers',['outliers',['../class_q_c_p_statistical_box.html#a73eaa2f800b47e3832d7f09ad1f3b7e0',1,'QCPStatisticalBox']]],
+  ['outlierstyle',['outlierStyle',['../class_q_c_p_statistical_box.html#ab7e5a68bce97ba43a7ff18e074c4dcad',1,'QCPStatisticalBox']]],
+  ['outvars',['outvars',['../class_vespucci_1_1_external_1_1_file_interprocess.html#a42dca33ce869eb5827dd335f70eec9a3',1,'Vespucci::External::FileInterprocess']]]
+];
