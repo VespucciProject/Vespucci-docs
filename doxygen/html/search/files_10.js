@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['scalebardialog_2ecpp',['scalebardialog.cpp',['../scalebardialog_8cpp.html',1,'']]],
+  ['scalebardialog_2eh',['scalebardialog.h',['../scalebardialog_8h.html',1,'']]],
+  ['scriptdialog_2ecpp',['scriptdialog.cpp',['../scriptdialog_8cpp.html',1,'']]],
+  ['scriptdialog_2eh',['scriptdialog.h',['../scriptdialog_8h.html',1,'']]],
+  ['settingsdialog_2ecpp',['settingsdialog.cpp',['../settingsdialog_8cpp.html',1,'']]],
+  ['settingsdialog_2eh',['settingsdialog.h',['../settingsdialog_8h.html',1,'']]],
+  ['smoothing_2eh',['smoothing.h',['../smoothing_8h.html',1,'']]],
+  ['spectratablemodel_2ecpp',['spectratablemodel.cpp',['../spectratablemodel_8cpp.html',1,'']]],
+  ['spectratablemodel_2eh',['spectratablemodel.h',['../spectratablemodel_8h.html',1,'']]],
+  ['spectrumeditor_2ecpp',['spectrumeditor.cpp',['../spectrumeditor_8cpp.html',1,'']]],
+  ['spectrumeditor_2eh',['spectrumeditor.h',['../spectrumeditor_8h.html',1,'']]],
+  ['statsdialog_2ecpp',['statsdialog.cpp',['../statsdialog_8cpp.html',1,'']]],
+  ['statsdialog_2eh',['statsdialog.h',['../statsdialog_8h.html',1,'']]],
+  ['stitchimportdialog_2ecpp',['stitchimportdialog.cpp',['../stitchimportdialog_8cpp.html',1,'']]],
+  ['stitchimportdialog_2eh',['stitchimportdialog.h',['../stitchimportdialog_8h.html',1,'']]],
+  ['svds_2ecpp',['svds.cpp',['../svds_8cpp.html',1,'']]]
+];
